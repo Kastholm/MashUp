@@ -5,3 +5,5 @@ Summary: A simple Dash dashboard application
 Requires-Python: >=3.8
 Requires-Dist: dash>=2.14.0
 Requires-Dist: dash-bootstrap-components>=1.5.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: python-dotenv>=1.0.0

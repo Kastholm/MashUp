@@ -6,6 +6,10 @@ MashUp.egg-info/dependency_links.txt
 MashUp.egg-info/requires.txt
 MashUp.egg-info/top_level.txt
 pages/__init__.py
+pages/books.py
 pages/home.py
+pages/movies.py
+pages/music.py
+pages/news.py
 pages/page2.py
 pages/page3.py
