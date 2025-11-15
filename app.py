@@ -11,7 +11,7 @@ app = dash.Dash(
 )
 
 # Import pages to register them (must be after app instantiation)
-from pages import home, news, music, movies, books
+from pages import home, news, music, movies, books, dbpedia
 
 # Sidebar navigation
 sidebar = dbc.Nav(
@@ -21,6 +21,7 @@ sidebar = dbc.Nav(
         dbc.NavLink("Music", href="/music", active="exact"),
         dbc.NavLink("Movies", href="/movies", active="exact"),
         dbc.NavLink("Books", href="/books", active="exact"),
+        dbc.NavLink("DBpedia", href="/dbpedia", active="exact"),
     ],
     vertical=True,
     pills=True,
